@@ -1,0 +1,2 @@
+http://api.weatherapi.com/v1/current.json?key=MY_KEY&q=${city}
+http://api.weatherapi.com/v1/forecast.json?key=MY_KEY&q=${city}&aqi=yes;
