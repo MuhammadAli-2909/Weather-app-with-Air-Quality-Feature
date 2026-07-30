@@ -54,4 +54,6 @@ This project is built entirely on the frontend, so the API key is visible in the
 
 ▶️ **Watch the demo video:**
 
-https://github.com/user-attachments/assets/a48547b7-2ab5-4d09-800f-19579a2854c1
+https://github.com/user-attachments/assets/28a7aae1-5b1a-4472-b67c-a1c2825959d3
+
+
