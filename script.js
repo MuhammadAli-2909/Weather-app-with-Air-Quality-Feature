@@ -3,9 +3,9 @@ let form = document.getElementById("form");
 form.after(div);
 async function weather(city) {
 
-    const api1 = `http://api.weatherapi.com/v1/current.json?key=0db1076176ff4325bd8164157260202&q=${city}`;
+    const api1 = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`;
 
-    const api2 = `http://api.weatherapi.com/v1/forecast.json?key=0db1076176ff4325bd8164157260202&q=${city}&aqi=yes`;
+    const api2 = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&aqi=yes`;
     let [weatherRes, forecastRes] = await Promise.all([
         fetch(api1),
         fetch(api2)
@@ -47,7 +47,7 @@ async function main(e) {
             <p><b>LOCALTIME:</b> ${data.weather.location.localtime}</p>
             <div class="content">
                 <div class="temp">
-                    <img src="${data.weather.current.condition.icon}" alt="">
+                    <img src="${data.weather.current.condition.icon}" alt="Condition">
                     <div class="temperature">
                         <div class="c">${data.weather.current.temp_c}<sup>∘</sup>C</div>
                         <div class="f">${data.weather.current.temp_f}<sup>∘</sup>F</div>
