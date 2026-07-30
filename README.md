@@ -44,11 +44,11 @@ This project is built entirely on the frontend, so the API key is visible in the
 
 <img width="1366" height="650" alt="Home Screen" src="https://github.com/user-attachments/assets/2affedb8-c67a-43c7-bc21-c353dce7f041" />
 
-<img width="537" height="308" alt="Search Result" src="https://github.com/user-attachments/assets/bc498b64-756f-47a0-adb0-ac1f1476bcaa" />
 
 <img width="1363" height="653" alt="Weather Details" src="https://github.com/user-attachments/assets/d35e3776-e5a2-404f-bc8e-75b32e560158" />
 
 <img width="1349" height="648" alt="Air Quality View" src="https://github.com/user-attachments/assets/e69770b5-ecd7-449d-9261-0453a07efed7" />
+<img width="537" height="308" alt="Search Result" src="https://github.com/user-attachments/assets/bc498b64-756f-47a0-adb0-ac1f1476bcaa" />
 
 ## 🎥 Demo
 
