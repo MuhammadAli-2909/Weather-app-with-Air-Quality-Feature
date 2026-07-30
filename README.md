@@ -2,6 +2,10 @@
 
 A simple weather app where you can search for any city and instantly view its current weather and air quality in a clean, dark dashboard-style interface.
 
+## 🌐 Live Demo
+
+[🚀 Launch WEATHI.IO](https://weather-app-five-swart-71.vercel.app/)
+
 ## ✨ Features
 
 - Search weather by city name
