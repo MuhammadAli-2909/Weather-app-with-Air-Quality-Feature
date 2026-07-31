@@ -4,90 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>WEATHI.IO | Weather Forecast App</title>
-
-    <meta name="description"
-        content="WEATHI.IO is a modern weather forecast application that provides real-time weather conditions and air quality information for any city.">
-
-    <meta name="keywords"
-        content="Weather App, WeatherAPI, Forecast, Air Quality, JavaScript, HTML, CSS">
-
+    <meta name="description" content="WEATHI.IO is a modern weather forecast application that provides real-time weather conditions and air quality information for any city.">
+    <meta name="keywords" content="Weather App, WeatherAPI, Forecast, Air Quality, JavaScript, HTML, CSS">
     <meta name="author" content="Muhammad Ali">
-
-    <!-- Favicon -->
     <link rel="icon" href="weather.png">
-
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
-
         <nav>
-
             <div class="logo">
                 WEATHI.IO
             </div>
-
             <ul>
-
                 <li><a href="#">Home</a></li>
-
                 <li><a href="#">About</a></li>
-
                 <li><a href="#">Contact</a></li>
-
                 <li><a href="#">GitHub</a></li>
-
             </ul>
-
         </nav>
-
         <section class="box">
-
             <h1>Weather Forecast App</h1>
-
             <p>Know the Weather of Any City in Real Time</p>
-
             <form id="form">
-
-                <input
-                    type="text"
-                    id="search"
-                    placeholder="Search your city..."
-                    autocomplete="off">
-
-                <button
-                    class="butt"
-                    type="submit">
-
-                    Search
-
-                    <img
-                        src="search.svg"
-                        width="20"
-                        alt="Search">
-
+                <input type="text" id="search" placeholder="Search your city..." autocomplete="off">
+                <button class="butt" type="submit">Search
+                    <img src="search.svg"  width="20" alt="Search">
                 </button>
-
             </form>
-
         </section>
-
     </header>
-
     <main>
-
         <div id="container"></div>
-
     </main>
-
     <script src="config.js"></script>
     <script src="script.js"></script>
-
 </body>
-
 </html>

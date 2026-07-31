@@ -196,7 +196,7 @@ ${data.weather.current.last_updated}
 
         container.innerHTML = `
             <div class="notfound">
-                <h2>⚠ Something went wrong.</h2>
+                <h2>Something went wrong.</h2>
                 <p>${err.message}</p>
             </div>
         `;
