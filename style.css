@@ -129,7 +129,7 @@ button:disabled {
 
 .err {
     color: #ff5b5b;
-    margin-top: 15px;
+    margin-top: 1px;
     text-align: center;
     font-family: Poppins;
 }
