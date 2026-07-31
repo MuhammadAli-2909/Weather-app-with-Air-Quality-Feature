@@ -48,10 +48,9 @@ This project is built entirely on the frontend, so the API key is visible in the
 
 <img width="1366" height="653" alt="image" src="https://github.com/user-attachments/assets/73a73f9e-b41f-4858-b889-50fab1fb9136" />
 <img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/ec00d0d2-7f23-4e4b-b7c7-8c006bf4d5aa" />
-<img width="1359" height="647" alt="image" src="https://github.com/user-attachments/assets/970f61d7-be3c-4ea5-b17d-1e610fc4c7fa" />
-<img width="1366" height="653" alt="image" src="https://github.com/user-attachments/assets/56ef164b-4d95-4bcd-8bac-c16db4617499" />
 <img width="1361" height="646" alt="image" src="https://github.com/user-attachments/assets/88d60035-92d4-47ad-9ec6-b2373c1ca741" />
-
+<img width="1359" height="647" alt="image" src="https://github.com/user-attachments/assets/970f61d7-be3c-4ea5-b17d-1e610fc4c7fa" />
+<img width="1350" height="647" alt="image" src="https://github.com/user-attachments/assets/95dabb3c-f104-4359-bd89-eba630ab8596" />
 
 ## 🎥 Demo
 
