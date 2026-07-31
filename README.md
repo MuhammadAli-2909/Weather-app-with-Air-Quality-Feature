@@ -46,13 +46,11 @@ This project is built entirely on the frontend, so the API key is visible in the
 
 ## 📸 Screenshots
 
-<img width="1366" height="650" alt="Home Screen" src="https://github.com/user-attachments/assets/2affedb8-c67a-43c7-bc21-c353dce7f041" />
+<img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/ec00d0d2-7f23-4e4b-b7c7-8c006bf4d5aa" />
+<img width="1366" height="653" alt="image" src="https://github.com/user-attachments/assets/56ef164b-4d95-4bcd-8bac-c16db4617499" />
+<img width="1359" height="647" alt="image" src="https://github.com/user-attachments/assets/970f61d7-be3c-4ea5-b17d-1e610fc4c7fa" />
+<img width="1361" height="646" alt="image" src="https://github.com/user-attachments/assets/88d60035-92d4-47ad-9ec6-b2373c1ca741" />
 
-
-<img width="1363" height="653" alt="Weather Details" src="https://github.com/user-attachments/assets/d35e3776-e5a2-404f-bc8e-75b32e560158" />
-
-<img width="1349" height="648" alt="Air Quality View" src="https://github.com/user-attachments/assets/e69770b5-ecd7-449d-9261-0453a07efed7" />
-<img width="537" height="308" alt="Search Result" src="https://github.com/user-attachments/assets/bc498b64-756f-47a0-adb0-ac1f1476bcaa" />
 
 ## 🎥 Demo
 
