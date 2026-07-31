@@ -1,48 +1,43 @@
 # WEATHI.IO — Weather Forecast App
 
-A simple weather app where you can search for any city and instantly view its current weather and air quality in a clean, dark dashboard-style interface.
+A weather app where you search any city and get current weather + air quality on a dark dashboard-style UI.
 
 ## 🌐 Live Demo
 
-[🚀 Launch WEATHI.IO](https://weather-app-five-swart-71.vercel.app/)
+[Launch WEATHI.IO](https://weather-app-five-swart-71.vercel.app/)
 
 ## ✨ Features
 
-- Search weather by city name
-- Current temperature displayed in both °C and °F
+- Search by city name
+- Temperature in both °C and °F
 - Weather condition with matching icon
-- Wind speed, humidity, and cloud cover
-- Air quality displayed as a percentage (converted from the US EPA index)
+- Wind speed, humidity, cloud cover
+- Air quality as a percentage (converted from the US EPA index)
 - Last updated timestamp
-- Proper error handling for empty searches and invalid city names
+- Handles empty searches and invalid city names gracefully
 
 ## 🛠 Built With
 
-- HTML
-- CSS
-- JavaScript (Vanilla)
+- HTML, CSS, JavaScript (Vanilla)
 - [WeatherAPI.com](https://www.weatherapi.com/) for weather and air quality data
 - Google Fonts (Orbitron & Poppins)
 
 ## ⚙️ How It Works
 
-When a city is searched, the application sends two requests to WeatherAPI simultaneously using `Promise.all()`:
+When you search a city, the app fires two requests to WeatherAPI at once using `Promise.all()`: current weather, and forecast data with air quality.
 
-- Current weather data
-- Forecast data with air quality information
-
-The returned US EPA air quality index (1–6) is converted into a simple percentage for easier understanding. All UI elements are created and updated using plain JavaScript DOM manipulation without any frameworks or templating libraries.
+The US EPA air quality index (1–6) gets converted into a percentage so it's easier to read at a glance. No frameworks, no templating — just plain JS DOM manipulation for building and updating the UI.
 
 ## 🚀 Running Locally
 
-1. Clone the repository.
-2. Get a free API key from [WeatherAPI.com](https://www.weatherapi.com/).
-3. Replace the values of `api1` and `api2` in `script.js` with your own API key.
+1. Clone the repo.
+2. Grab a free API key from [WeatherAPI.com](https://www.weatherapi.com/).
+3. Swap in your key for `api1` and `api2` in `script.js`.
 4. Open `index.html` in your browser.
 
 ## 🔐 API Key
 
-This project is built entirely on the frontend, so the API key is visible in the JavaScript source. This is a limitation of client-side applications. In a production environment, the API key should be protected behind a backend or serverless function.
+This is a frontend-only project, so the API key sits right there in the JS source. That's just how client-side apps work — for production you'd want it behind a backend or serverless function instead.
 
 ## 📸 Screenshots
 
@@ -54,6 +49,5 @@ This project is built entirely on the frontend, so the API key is visible in the
 
 ## 🎥 Demo
 
-▶️ **Watch the demo video:**
-
+▶️ Watch the demo video:
 https://github.com/user-attachments/assets/7373da6d-5b84-4e8f-88a0-a00edb00c141
